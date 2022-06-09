@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Mi complejo deportivo</title>    
+    <link rel="icon" href="../Evidencia Portafolio M2 17.02.22/assets/img/icon.jpg" />
+    <meta name="description" content="Complejo deportivo MiEsfuerzo" />
+    <meta name="keywords" content="Deporte, Spinning, Zumba, Preparador Físico" />
+    <meta name="author" content="CFG" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+        crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .mensajeError {
+            color: red;
+            font-size: 12px;
+        }
+        .inputError {
+            border-color: red;
+        }
+    </style>
+    <script>
+        $(function(){
+            alert("Funciona!")
+        });
+    </script>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <h1 class="display-4">Complejo Deportivo Body Active</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Profesores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Calendario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inscripción</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container">
+        <section class="row">
+            <h3>Quienes Somos</h3>
+            <p>Un espacio para entusiastas del deporte, donde podrás avanzar a tu ritmo y con la guía de destacados profesionales en diversas disciplinas.</p>
+        </section>
+        <section class="row">
+            <h3>Profesores</h3>
+            <ul>
+                <li>Preparador físico: Luis María Bonini</li>
+                <li>Spinning: Freddy Turbina</li>
+                <li>Running: Erika Olivera</li>
+                <li>Zumba: Pablo Vargas</li>
+            </ul>
+        </section>
+        <section class="row">
+            <h3>Calendario</h3>
+            <div class="col-md-12">
+                <table class="table table-primary table-stripper table-hover table-bordered border-dark text-center">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">Horario</th>
+                            <th scope="col">Lunes</th>
+                            <th scope="col">Martes</th>
+                            <th scope="col">Miércoles</th>
+                            <th scope="col">Jueves</th>
+                            <th scope="col">Viernes</th>
+                            <th scope="col">Sábado</th>
+                            <th scope="col">Domingo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>9:00-10:00</td>
+                            <td>Running</td>
+                            <td>Spinning</td>
+                            <td>Running</td>
+                            <td>Spinning</td>
+                            <td>Running</td>
+                            <td>Spinning</td>
+                            <td>Spinning</td>
+                        </tr>
+                        <tr>
+                            <td>10:00-11:00</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                        </tr>
+                        <tr>
+                            <td>11:00-12:00</td>
+                            <td>Spinning</td>
+                            <td>Spinning</td>
+                            <td>Spinning</td>
+                            <td>Spinning</td>
+                            <td>Spinning</td>
+                            <td>Spinning</td>
+                            <td>Spinning</td>
+                        </tr>
+                        <tr>
+                            <td>12:00-13:00</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                        </tr>
+                        <tr>
+                            <td>13:00-14:00</td>
+                            <td>Zumba</td>
+                            <td>Spinning</td>
+                            <td>Zumba</td>
+                            <td>Spinning</td>
+                            <td>Zumba</td>
+                            <td>Spinning</td>
+                            <td>Spinning</td>
+                        </tr>
+                        <tr>
+                            <td>14:00-15:00</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                        </tr>
+                        <tr>
+                            <td>15:00-16:00</td>
+                            <td>Zumba</td>
+                            <td>Spinning</td>
+                            <td>Zumba</td>
+                            <td>Spinning</td>
+                            <td>Zumba</td>
+                            <td>Spinning</td>
+                            <td>Spinning</td>
+                        </tr>
+                        <tr>
+                            <td>16:00-17:00</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                        </tr>
+                        <tr>
+                            <td>17:00-18:00</td>
+                            <td>Zumba</td>
+                            <td>Spinning</td>
+                            <td>Zumba</td>
+                            <td>Spinning</td>
+                            <td>Zumba</td>
+                            <td>Spinning</td>
+                            <td>Spinning</td>
+                        </tr>
+                        <tr>
+                            <td>18:00-19:00</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                            <td>Preparación Física</td>
+                        </tr>
+                        <tr>
+                            <td>19:00-20:00</td>
+                            <td>Zumba</td>
+                            <td>Spinning</td>
+                            <td>Zumba</td>
+                            <td>Spinning</td>
+                            <td>Zumba</td>
+                            <td>Spinning</td>
+                            <td>Spinning</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="container-fluid">
+            <h3>Inscripción</h3>
+            <form id="miFormulario" method="get" name="miFormulario">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="form-group">
+                            <label class="form-check-label" for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" name="Nombres" placeholder="Ejemplo: Juan Andrés" title="Ingrese Nombres"
+                            onchange="onLimpiarEstilos('nombre')"/>
+                            <div id="errorNombre" class="mensajeError"></div>
+                            <br />
+                            <label class="form-check-label" for="apellidoPaterno">Apellido Paterno</label>
+                            <input type="text" class="form-control" id="apellidoPaterno" name="apellidoPaterno" placeholder="Ejemplo: Pérez" title="Ingrese su apellido"
+                            onchange="onLimpiarEstilos('apellidoPaterno')" />
+                            <div id="errorApellidoPaterno" class="mensajeError"></div>
+                            <br />
+                            <label class="form-check-label" for="apellidoMaterno">Apellido Materno</label>
+                            <input type="text" class="form-control" id="apellidoMaterno" name="apellidoMaterno" placeholder="Ejemplo: González" title="Ingrese su apellido"
+                            onchange="onLimpiarEstilos('apellidoMaterno')"  />
+                            <div id="errorApellidoMaterno" class="mensajeError"></div>
+                            <br />
+                            <label class="form-check-label" for="edad">Edad</label>
+                            <input type="number" class="form-control" id="edad" name="edad" min="15" max="80" placeholder="De 15 a 80 años" title="Ingrese su edad, solo dígitos"
+                            onchange="onLimpiarEstilos('edad')"/>
+                            <div id="errorEdad" class="mensajeError"></div>
+                            <br />
+                            <label class="form-check-label" for="domicilio">Domicilio</label>
+                            <input type="text" class="form-control" id="domicilio" name="domicilio" placeholder=" Las Acacias N°22, departamento N°6" title="Ingrese su dirección"
+                            onchange="onLimpiarEstilos('domicilio')"/>
+                            <div id="errorDomicilio" class="mensajeError"></div>
+                            <br />                                         
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="form-group">
+                            <label class="form-check-label" for="tipoIdentificacion">Tipo de Identificación</label>
+                            <select name="tipoIdentificacion" >
+                                <option value="1" selected>CI</option>
+                                <option value="2">Pasaporte</option>
+                            </select>
+                            <br />
+                            <label class="form-check-label" for="numeroIdentificacion">Número de identificación</label>
+                            <input type="text" class="form-control" id="numeroIdentificacion" name="numeroIdentificacion" placeholder="CI: 12345678-K / PAS: X12345"
+                            title="Ingrese el numero de identificación" onchange="onLimpiarEstilos('numeroIdentificacion')"/>
+                            <div id="errorNumeroIdentificacion" class="mensajeError"></div>
+                            <br />
+                            <label class="form-check-label" for="nacionalidad">Nacionalidad</label>
+                            <input type="text" class="form-control" id="nacionalidad" name="nacionalidad" placeholder="Ejemplo: Chileno(a)"title="Registre su nacionalidad"
+                            onchange="onLimpiarEstilos('nacionalidad')"/>
+                            <div id="errorNacionalidad" class="mensajeError"></div>
+                            <br />
+                            <div class="form-check-label"></div>
+                            <label class="form-check-label">¿Alergico?</label>
+                            Sí <input type="radio" class="form-check-input" name="Alergias" value="Sí" />
+                            No <input type="radio" class="form-check-input" name="Alergias" value="No" checked />
+                            <br />
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">Enfermedades relevantes:</label>
+                            <br />
+                            <input type="checkbox" class="form-check-input" value="a"
+                                name="Enfermedades"><span>Enfermedades Cardiacas</span><br />
+                            <input type="checkbox" class="form-check-input" value="b"
+                                name="Enfermedades"><span>Diabetes</span><br />
+                            <input type="checkbox" class="form-check-input" value="c"
+                                name="Enfermedades"><span>Colesterol</span><br />
+                            <input type="checkbox" class="form-check-input" value="d" name="Enfermedades"><span>Lesiones
+                                graves</span><br />
+                            <input type="checkbox" class="form-check-input" value="e" name="Enfermedades"><span>Lesiones
+                                leves</span><br />
+                            <input type="checkbox" class="form-check-input" value="f"
+                                name="Enfermedades"><span>Otros</span>
+                            <br />
+                        </div>
+                        <label class="form-check-label" for="medicamentosContraindicados">Medicamentos contraindicados</label>
+                        <input type="text" class="form-control" id="medicamentosContraindicados" name="medicamentosContraindicados" placeholder="Ejemplo: Aspirina / Nada"
+                        title="Ingrese los nombres de medicamentos contraindicados." onchange="onLimpiarEstilos('medicamentosContraindicados')" />
+                        <div id="errorMedicamentosContraindicados" class="mensajeError"></div>
+                        <br />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-lg" name="btnEnviar"> Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <script>
+                const formulario = document.getElementById("miFormulario");
+        
+                const nombre = document.getElementById("nombre");
+                const apellidoPaterno = document.getElementById("apellidoPaterno");
+                const apellidoMaterno = document.getElementById("apellidoMaterno");
+                const edad = document.getElementById("edad");
+                const domicilio = document.getElementById("domicilio");
+                const numeroIdentificacion = document.getElementById("numeroIdentificacion");
+                const nacionalidad= document.getElementById("nacionalidad");
+                const medicamentosContraindicados= document.getElementById("medicamentosContraindicados");
+        
+                const errorNombre = document.getElementById("errorNombre");
+                const errorApellidoPaterno = document.getElementById("errorApellidoPaterno");
+                const errorApellidoMaterno = document.getElementById("errorApellidoMaterno");
+                const errorEdad = document.getElementById("errorEdad");
+                const errorDomicilio = document.getElementById("errorDomicilio");
+                const errorNumeroIdentificacion = document.getElementById("errorNumeroIdentificacion");
+                const errorNacionalidad = document.getElementById("errorNacionalidad");
+                const errorMedicamentosContraindicados = document.getElementById("errorMedicamentosContraindicados");
+                        
+                formulario.addEventListener("submit", (evento) => {
+                    const valorNombre = nombre.value;
+                    const valorApellidoPaterno = apellidoPaterno.value;
+                    const valorApellidoMaterno = apellidoMaterno.value;
+                    const valorEdad = edad.value;
+                    const valorDomicilio = domicilio.value;
+                    const valorNumeroIdentificacion = numeroIdentificacion.value;
+                    const valorNacionalidad = nacionalidad.value;
+                    const valorMedicamentosContraindicados = medicamentosContraindicados.value;
+                                               
+                    if( valorNombre == null || valorNombre == ""){
+                        evento.preventDefault(); 
+                        errorNombre.innerText = "Complete la información requerida.";
+                        nombre.className = "form-control inputError";
+                    }
+        
+                    if (valorApellidoPaterno == null || valorApellidoPaterno == ""){
+                        evento.preventDefault();
+                        errorApellidoPaterno.innerText = "Complete la información requerida.";
+                        apellidoPaterno.className = "form-control inputError";
+                    }
+
+                    if (valorApellidoMaterno == null || valorApellidoMaterno == ""){
+                        evento.preventDefault();
+                        errorApellidoMaterno.innerText = "Complete la información requerida.";
+                        apellidoMaterno.className = "form-control inputError";
+                    }
+
+                    if (valorEdad == null || valorEdad == ""){
+                        evento.preventDefault();
+                        errorEdad.innerText = "Complete la información requerida.";
+                        edad.className = "form-control inputError";
+                    }
+
+                    if (valorDomicilio == null || valorDomicilio == ""){
+                        evento.preventDefault();
+                        errorDomicilio.innerText = "Complete la información requerida.";
+                        domicilio.className = "form-control inputError";
+                    }
+
+                    if (valorNumeroIdentificacion == null || valorNumeroIdentificacion == ""){
+                        evento.preventDefault();
+                        errorNumeroIdentificacion.innerText = "Complete la información requerida.";
+                        numeroIdentificacion.className = "form-control inputError";
+                    }
+
+                    if (valorNacionalidad == null || valorNacionalidad == ""){
+                        evento.preventDefault();
+                        errorNacionalidad.innerText = "Complete la información requerida.";
+                        nacionalidad.className = "form-control inputError";
+                    }
+
+                    if (valorMedicamentosContraindicados == null || valorMedicamentosContraindicados == ""){
+                        evento.preventDefault();
+                        errorMedicamentosContraindicados.innerText = "Complete la información requerida.";
+                        medicamentosContraindicados.className = "form-control inputError";
+                    }
+        
+                    if (valorNombre.length > 0 && valorApellidoPaterno.length > 0 && valorApellidoMaterno.length > 
+                    0 && valorEdad.length > 0 || valorDomicilio.length > 0 && valorNumeroIdentificacion.length >
+                    0 && valorNumeroIdentificacion.length > 0 && valorMedicamentosContraindicados.length > 0) {
+                        errorNombre.innerText = "";
+                        errorApellidoPaterno.innerText = "";
+                        errorApellidoMaterno.innerText = "";
+                        errorEdad.innertext = "";
+                        errorDomicilio.innerText = "";
+                        errorNumeroIdentificacion.innertext = "";
+                        errorNacionalidad.innerText = "";
+                        errorMedicamentosContraindicados.innerText = "";
+                        nombre.className = "";
+                        apellidoPaterno.className = "";
+                        apellidoMaterno.className = "";
+                        edad.className = "";
+                        domicilio.className = "";
+                        numeroIdentificacion.className = "";
+                        nacionalidad.className = "";
+                        medicamentosContraindicados.className = "";
+                        alert("Formulario enviado!");
+                    }        
+        
+                });
+        
+                function onLimpiarEstilos( inputName ){
+                    if (inputName == "form-control nombre"){
+                        errorNombre.innerText = "";
+                        nombre.className = "";
+                    }
+        
+                    if (inputName == "form-control apellidoPaterno"){
+                        errorApellidoPaterno.innerText = "";
+                        apellidoPaterno.className = "";
+                    }
+
+                    if (inputName == "form-control apellidoMaterno"){
+                        errorApellidoMaterno.innerText = "";
+                        apellidoMaterno.className = "";
+                    }
+
+                    if (inputName == "form-control edad"){
+                        errorEdad.innerText = "";
+                        edad.className = "";
+                    }
+
+                    if (inputName == "form-control domicilio"){
+                        errorDomicilio.innerText = "";
+                        domicilio.className = "";
+                    }
+                    
+                    if (inputName == "form-control numeroIdentificacion"){
+                        errorNumeroIdentificacion.innerText = "";
+                        numeroIdentificacion.className = "";
+                    }
+
+                    if (inputName == "form-control nacionalidad"){
+                        errorNacionalidad.innerText = "";
+                        nacionalidad.className = "";
+                    }
+
+                    if (inputName == "form-control medicamentosContraindicados"){
+                        errorMedicamentosContraindicados.innerText = "";
+                        medicamentosContraindicados.className = "";
+                    }
+                }
+        
+            </script>
+        </section>
+    </section>
+    <section class="container-fluid bg-dark text-white">
+        <footer>
+            <p>Evidencia Portafolio M2 17 Febrero 2022</p>
+            <p>Desarrollado por CColoma<a href="https://linkedin.com/"></a></p>
+        </footer>
+    </section>
+</body>
+
+</html>

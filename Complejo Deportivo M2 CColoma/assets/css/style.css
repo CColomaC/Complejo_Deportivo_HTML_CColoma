@@ -1,0 +1,8 @@
+body {
+    background-size: cover;
+    background-image: url(../img/Fondo\ 2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
